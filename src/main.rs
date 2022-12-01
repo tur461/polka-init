@@ -12,8 +12,8 @@ fn main() {
     
     let tmp_dir = env::var("TMP_DIR").expect("TMP_DIR must be set");
     let specs_dir = env::var("SPECS_DIR").expect("SPECS_DIR must be set");
-    let para_exec = env::var("PARA_BIN_PATH").expect("PARA must be set");
-    let relay_exec = env::var("RELAY_BIN_PATH").expect("RELAY must be set");
+    let para_exec = env::var("PARA_BIN_PATH").expect("PARA_BIN_PATH must be set");
+    let relay_exec = env::var("RELAY_BIN_PATH").expect("RELAY_BIN_PATH must be set");
     
     println!("specs_dir {:?}", specs_dir);
 
